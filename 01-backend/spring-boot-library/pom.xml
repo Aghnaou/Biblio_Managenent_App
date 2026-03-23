@@ -58,11 +58,36 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>dev.langchain4j</groupId>
+			<artifactId>langchain4j-core</artifactId>
+			<version>0.36.2</version>
+		</dependency>
 <!--		<dependency>-->
 <!--			<groupId>com.okta.spring</groupId>-->
 <!--			<artifactId>okta-spring-boot-starter</artifactId>-->
 <!--			<version>2.1.6</version>-->
 <!--		</dependency>-->
+		<!-- LangChain4j Core -->
+		<dependency>
+			<groupId>dev.langchain4j</groupId>
+			<artifactId>langchain4j</artifactId>
+			<version>0.36.2</version>
+		</dependency>
+
+		<!-- Gemini Integration -->
+		<dependency>
+			<groupId>dev.langchain4j</groupId>
+			<artifactId>langchain4j-google-ai-gemini</artifactId>
+			<version>0.36.2</version>
+		</dependency>
+
+		<!-- Local Embeddings FREE -->
+		<dependency>
+			<groupId>dev.langchain4j</groupId>
+			<artifactId>langchain4j-embeddings-all-minilm-l6-v2</artifactId>
+			<version>0.36.2</version>
+		</dependency>
 
 	</dependencies>
 
